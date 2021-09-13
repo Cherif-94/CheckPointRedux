@@ -1,0 +1,74 @@
+h2 {
+  font-family: raleway;
+  font-size: 22pt;
+  padding-bottom: 22px;
+}
+
+.todoList {
+  border: 1px solid lightgray;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 10px; */
+  padding: 1px;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+  background: gray; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(
+    left top,
+    gray,
+    white
+  ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(
+    bottom right,
+    gray,
+    white
+  ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(
+    bottom right,
+    gray,
+    white
+  ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(
+    to bottom right,
+    gray,
+    white
+  ); /* Standard syntax */
+}
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+input {
+  border: none;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+.addBtn {
+  padding: 10px;
+  width: 25%;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: helvetica;
+}
+
+.addBtn:hover {
+  background-color: #bbb;
+}
